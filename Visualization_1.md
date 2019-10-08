@@ -35,6 +35,8 @@ library(ggridges)
 
 ``` r
 library(hexbin)
+
+set.seed(1)
 ```
 
 We’ll be working with NOAA weather data, which is **downloaded** using
@@ -589,7 +591,7 @@ following in a code snippet at the outset of my R Markdown documents.
 
 ``` r
 knitr::opts_chunk$set(
-  fig.width = 6,
+  fig.width = 12,
   fig.asp = .6,
   out.width = "90%"
 )
@@ -604,7 +606,7 @@ the code chunk below has set fig.width = 12.
 
 ``` r
 knitr::opts_chunk$set(
-  fig.width = 12,
+  fig.width = 6,
   fig.asp = .6,
   out.width = "90%"
 )
