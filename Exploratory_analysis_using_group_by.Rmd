@@ -1,0 +1,19 @@
+---
+title: "Exploratory_Analysis_Using_group_by"
+author: "Jingyi"
+date: "10/7/2019"
+output: html_document
+---
+
+Data sets can frequently be partitioned into meaningful groups based on the variables they contain. Making this grouping explicit allows the computation of numeric summaries within groups, which in turn facilitates quantitative comparisons.
+
+```{r}
+
+# ensure reproductivity
+set.seed(1)
+
+# load library
+library(tidyverse)
+
+```
+
